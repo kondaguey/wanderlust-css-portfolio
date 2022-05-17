@@ -1,0 +1,19 @@
+{
+  "name": "wander_lust",
+  "version": "1.0.0",
+  "description": "travel app",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "compile:sass": "node-sass sass/main.scss public/css/styles.css -w"
+  },
+  "author": "Daniel Lewis",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "https": "^1.0.0",
+    "jquery": "^3.6.0",
+    "node-sass": "^7.0.1"
+  }
+}

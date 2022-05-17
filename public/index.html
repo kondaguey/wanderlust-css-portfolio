@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Grape+Nuts&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:wght@400;500;600;700;800;900&family=Rubik+Glitch&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/d5e7067aba.js" crossorigin="anonymous"></script> 
+  <title>WanderLust &mdash; Your go-to home for your adventures</title>
+</head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <img src="./img/logo.png" alt="wanderlust logo" class="logo">
+        <span class="header__title">Wanderlust</span>
+        <form action="#" class="search">
+          <input type="text" class="search__input" placeholder="Search Hostels">
+          <button class="search__button">
+            <i class="search__icon fa-solid fa-magnifying-glass"></i>
+          </button>
+        </form>
+        <nav class="user-nav">
+          <div class="user-nav__icon-box">
+            <i class="user-nav__icon fa-solid fa-bookmark"></i>
+            <span class="user-nav__notification">7</span>
+          </div>
+          <div class="user-nav__icon-box">
+            <i class="user-nav__icon fa-solid fa-comments"></i>
+            <span class="user-nav__notification">11</span>
+          </div>
+          <div class="user-nav__user">
+            <img src="./img/user.jpg" alt="wanderlust user" class="user-nav__user-photo">
+            <span class="user-nav__user-name">&nbsp;다니엘</span>
+          </div>
+        </nav>
+      </header>
+
+      <div class="content">
+        <nav class="sidebar">
+          <ul class="side-nav">
+
+            <li class="side-nav__item side-nav__item--active">
+              <a href="#" class="side-nav__link">
+                <i class="side-nav__icon fa-solid fa-house"></i>
+                <span>Hostel</span>
+              </a>
+            </li>
+
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <i class="side-nav__icon fa-solid fa-plane-departure"></i>
+                <span>Flight Deals</span>
+              </a>
+            </li>
+
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <i class="side-nav__icon fa-solid fa-key"></i>
+                <span>Long-term stays</span>
+              </a>
+            </li>
+
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <i class="side-nav__icon fa-solid fa-map"></i>
+                <span>Tours</span>
+              </a>
+            </li>
+
+          </ul>
+          <div class="legal">
+            &copy;<script>document.write(/\d{4}/.exec(Date())[0])</script>, WanderLust LLC. All rights reserved.
+          </div>
+        </nav>
+
+        <main class="hostel-view">
+
+          <div class="gallery">
+            <figure class="gallery__item">
+              <img src="./img/hostel-1.jpg" alt="hostel 1" class="gallery__photo--1">
+            </figure>
+            <figure class="gallery__item">
+              <img src="./img/hostel-2.jpg" alt="hostel 2" class="gallery__photo--2">
+            </figure>
+            <figure class="gallery__item">
+              <img src="./img/hostel-3.jpg" alt="hostel 3" class="gallery__photo--3">
+            </figure>
+          </div>
+
+          <div class="overview">
+            <h1 class="overview__heading">
+              Hostal Pura Vida
+            </h1>
+            <div class="overview__stars">
+              <i class="overview__icon-star fa-solid fa-star"></i>
+              <i class="overview__icon-star fa-solid fa-star"></i>
+              <i class="overview__icon-star fa-solid fa-star"></i>
+              <i class="overview__icon-star fa-solid fa-star"></i>
+            </div>
+            <div class="overview__icon-location overview__location">
+              <i class="fa-solid fa-location-dot">&nbsp;&nbsp;</i>
+              <button class="btn-inline">Santa Teresa, Costa Rica</button>
+            </div>
+            <div class="overview__rating">
+              <div class="overview__rating-average">9.1 / 10 </div>
+              <div class="overview__rating-count">789 votes</div>
+            </div>
+          </div>
+
+          <div class="detail">
+            <div class="detail__description">
+              <p class="detail__paragraph">
+                Pura Vida is without a doubt where you want to stay in Santa Teresa. The biggest hostel on the main road, our 4-story building totally vibes with the town's artistic environment. Our restaurant and bar features a diverse menu, and you can connect to the best Wi-Fi in town at our co-working space. If you're coming to surf, some of the best breaks in Costa Rica are just a short walk away.
+
+              </p>
+              <p class="detail__paragraph">
+                Santa Teresa is a real paradise for those who want to relax and be thrilled. Its white sand beaches are surrounded by jungle, with sunsets over the Pacific that will leave you breathless.
+              </p>
+              <ul class="detail__list">
+                
+                <li class="detail__list-item"><i class="fa-solid fa-angle-right"></i> 24 hour access</li>
+                <li class="detail__list-item"><i class="fa-solid fa-angle-right"></i> 5-minute walk to the beach</li>
+                <li class="detail__list-item"><i class="fa-solid fa-angle-right"></i> Free High Speed Internet Access</li>
+                <li class="detail__list-item"><i class="fa-solid fa-angle-right"></i> Cash bar and Cantina for lunch and dinner bites</li>
+                <li class="detail__list-item"><i class="fa-solid fa-angle-right"></i> AC Units in all rooms</li>
+                <li class="detail__list-item"><i class="fa-solid fa-angle-right"></i> Lockers for your expensive belongings</li>
+              </ul>
+              <div class="detail__recommend">
+                <p class="detail__recommend__count">
+                  Jasmine and 3 other friends highly recommend this stay.
+                </p>
+                <div class="detail__recommend__friends">
+                  <img src="./img/user-1.jpg" alt="friend 1" class="detail__recommend__friends__photo-1">
+                  <img src="./img/user-2.jpg" alt="friend 2" class="detail__recommend__friends__photo-2">
+                  <img src="./img/user-3.jpg" alt="friend 3" class="detail__recommend__friends__photo-3">
+                  <img src="./img/user-4.jpg" alt="friend 4" class="detail__recommend__friends__photo-4">
+                </div>
+              </div>
+            </div>
+            <div class="user-reviews">
+              <figure class="review">
+                <blockquote class="review__text">
+                  Loved Pura Vida North (although I didn’t explore south!) the bedrooms were a good size, the pool was a welcome amenity, (although not enough sun beds around it!) it was a short walk to the beach and lovely little boutique stores either side. Wonderful hot showers.
+                </blockquote>
+                <figcaption class="review__user">
+                  <img src="./img/review-user-1.jpg" alt="User 1" class="review__photo">
+                  <div class="review__user-box">
+                    <p class="review__user-name">Roy Dietrich</p>
+                    <p class="review__user-date">May 20th, 2022</p>
+                  </div>
+                  <div class="review__rating">8.4/10</div>
+                </figcaption>
+              </figure>
+              <figure class="review">
+                <blockquote class="review__text">
+                  Very clean, comfrey beds, nice staff but no welcome drinks to meet other travelers and they played a film very loud in the bar area so you couldn't talk to anyone 
+                </blockquote>
+                <figcaption class="review__user">
+                  <img src="./img/review-user-2.jpg" alt="User 2" class="review__photo">
+                  <div class="review__user-box">
+                    <p class="review__user-name">Cassidy Waters</p>
+                    <p class="review__user-date">May 7th, 2022</p>
+                  </div>
+                  <div class="review__rating">7.4/10</div>
+                </figcaption>
+              </figure>
+              <figure class="review">
+                <blockquote class="review__text">
+                  I wanted to love this hostel because the location is unbeatable, the facilities are amazing, and especially when you walk in you get this like "wow!" vibe. The dorm room I had was big, and the beds were comfortable with curtains. My bathroom was pretty clean.
+                </blockquote>
+                <figcaption class="review__user">
+                  <img src="./img/review-user-3.jpg" alt="User 3" class="review__photo">
+                  <div class="review__user-box">
+                    <p class="review__user-name">Justin Smith</p>
+                    <p class="review__user-date">April 29th, 2022</p>
+                  </div>
+                  <div class="review__rating">9.7/10</div>
+                </figcaption>
+              </figure>
+              <button class="btn-inline">Show all <span>&rarr;</span></button>
+            </div>
+          </div>
+          <div class="cta">
+            <h2 class="cta__book-now">Good News! We have 4 free rooms for your selected dates</h2>
+            <button class="btn">
+              <span class="btn__visible">Book Now</span>
+              <span class="btn__invisible">Only 4 rooms left!</span>
+            </button>
+          </div>
+        </main>
+      </div>
+    </div>
+    <script src="app.js" charset="utf-8"></script>
+  </body>
+</html>
